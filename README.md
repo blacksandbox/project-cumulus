@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -21,7 +22,7 @@ To get started, just do the following:
 2. Preview your new app by clicking on the URL that appears in the Run panel below (https://project-cumulus-blacksandbox.c9users.io/).
 
 Happy coding!
-The Cloud9 IDE team
+The Cloud9 IDE teamgit
 
 
 ## Support & Documentation
