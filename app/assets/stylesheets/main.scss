@@ -13,3 +13,27 @@ h1{
     max-width: 1000px;
     margin:0 auto;
 }
+
+/*index list*/
+.list_carded{
+    list-style: none;
+    
+    li{
+        padding: 5px;
+        table{
+            border-collapse: collapse;
+            border:1px #B0B0B0 solid;
+            
+            td{
+                padding: 10px;
+            }
+            td:first-child{
+                background-color: rgba(0, 0, 0, 0.07);
+            }
+            td:nth-child(2){
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+}

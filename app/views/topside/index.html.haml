@@ -1,5 +1,19 @@
 %div.wrapper_main
-    %h1= @message
+  %h1= @message
     
-    %div.content
-        This is a list of story. A story refers to project. Two projects can be related, but two are not a continuous story. 
+  This is a list of story. A story refers to project. Two projects can be related, but two are not a continuous story. 
+    
+  .wrapper_list
+    %ul.list_carded 
+      -@stories.each do |story|
+        %li
+          %table
+            %tr
+              %td=story.name
+              %td
+                view
+              %td=story.description
+
+            
+
+        
