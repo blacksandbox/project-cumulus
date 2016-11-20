@@ -1,0 +1,9 @@
+%h1="#{@story.name}"
+
+.wrapper_list
+  %ul.list_carded
+    -@scenes.each do |scene|
+      %li
+        %table
+          %tr
+            %td=scene.id

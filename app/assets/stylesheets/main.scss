@@ -1,3 +1,6 @@
+$highlight_red1: #7D2042;
+$highlight_red2: #A32755;
+
 html, body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     padding: 0;
@@ -9,9 +12,18 @@ h1{
     font-weight: normal;
 }
 
+a {
+    color:$highlight_red1;
+    text-decoration: none;
+}
+
+a:hover{
+    color:$highlight_red2;
+}
 .wrapper_main{
     max-width: 1000px;
     margin:0 auto;
+    
 }
 
 /*index list*/
